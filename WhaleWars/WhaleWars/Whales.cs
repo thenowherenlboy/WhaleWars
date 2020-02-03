@@ -43,6 +43,8 @@ namespace WhaleWars
         public void Attack(Object target)
         {
             // STUB
+            // somebody please shoot me....
+
            
         }
     }
