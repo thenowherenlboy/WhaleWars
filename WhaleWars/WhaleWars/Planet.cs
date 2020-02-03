@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WhaleWars
 {
-    class Planet
+    public class Planet
     {
     }
 }
