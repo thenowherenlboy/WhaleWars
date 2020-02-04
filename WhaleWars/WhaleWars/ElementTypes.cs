@@ -4,8 +4,10 @@ using System.Text;
 
 namespace WhaleWars
 {
-    class Trivia
+    public enum ElementTypes
     {
-
+        Lightning,
+        Fire,
+        Ice
     }
 }

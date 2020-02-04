@@ -6,46 +6,43 @@ namespace WhaleWars
 {
     public class Whales
     {
-        protected int speed { get; set; }
-        protected int mass { get; set; }
-        protected int capacity { get; set; }
+        
+        protected int Health { get; set; }
 
-        public Whales()
-        {
-            speed = 5;
-            mass = 500;
-            capacity = 25;
-        }
-
-        public Whales(int sp, int ms, int ca)
-        {
-            speed = sp;
-            mass = ms;
-            capacity = ca;
-        }
-
+    
         public void travel(Planet destination)
         {
             string dest = destination.ToString();
             Console.WriteLine($"You are arrived at planet {dest}.");
         }
+        public void Attack(Object target, Weapon weapon)
+        {
+                       
+        }
     }
 
-    public class Orca : Whales
+    public class Orca : Whales //Warrior class
     {
-        public Orca()
+        public Orca() 
         {
-            speed = 20;
-            mass = 250;
-            capacity = 5;
+            Health = 50;
         }
+       
+    }
 
-        public void Attack(Object target)
+    public class Narwhal : Whales //Mage class
+    {
+        public Narwhal()
         {
-            // STUB
-            // somebody please shoot me....
+            Health = 50;
+        }
+    }
 
-           
+    public class Beluga : Whales // Ranger Class
+    {
+        public Beluga()
+        {
+            Health = 50;
         }
     }
     
