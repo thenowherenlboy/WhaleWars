@@ -1,0 +1,21 @@
+Space Game - Whale Wars
+
+1. Menu Screen - Display title
+2. name <- user input
+3. class <- user input
+4. Create object of class that player chose
+	a. Warrior
+	b. Ranger
+	c. Mage
+5. Display beginning story text, depending on class.
+6. Create object "Destination 1". Flavor text to player for story. 
+7. Encounter method called, 
+8. enemy object created. player battles enemy.
+	8a. Player reduces enemy health to 0.
+	8b. Enemy reduces player health to 0. Game Over. 
+9. If player reduces enemy health to 0, prompt user to receive upgrade.
+	9a. Sword - +1 attack
+	9b. Shield - +1 defense
+	9c. Jellyfish - +2 defense, -1 attack
+10. Player advances to next destination, repeat from step 6. 
+11. Once player completes 5 planets, display score/statistics/game over screen. 
