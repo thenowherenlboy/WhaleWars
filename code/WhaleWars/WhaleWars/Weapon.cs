@@ -1,24 +1,53 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
 namespace WhaleWars
 {
-    public class Weapon
+    public class Weapon : Item
     {
-        protected int range;
-        protected int upperDamage;
-        protected int lowerDamage;
-        protected string name;
-        protected WeaponType type;
+        private int upperdamage;
+        private int lowerdamage;
+        private int range;
+      
+    }
 
-        public Weapon(string nm, int rg, int ud, int ld, WeaponType ty)
+    public class Sword : Weapon
+    {
+        public Sword()
         {
-            name = nm;
-            range = rg;
-            upperDamage = ud;
-            lowerDamage = ld;
-            type = ty;
+            Name = "Singing Sword";
+            Upperdamage = 10;
+            Lowerdamage = 4;
+
         }
     }
+
+    public class Wand : Weapon
+    {
+        public Wand()
+        {
+            Name = "Wonder Wand";
+            Upperdamage = 15;
+            Lowerdamage = 8;
+            
+        }
+    }
+    public class Bow : Weapon
+    {
+        public Bow()
+        {
+            Name = "Rain Bow";
+            Upperdamage = 4;
+            Lowerdamage = 1;
+            
+        }
+    }
+    public class Blowhole : Weapon
+    {
+        public Blowhole()
+        {
+            Name = "Blow"
+        }
+    }
+
+    // array = ["blowhole", "12", "
 }
