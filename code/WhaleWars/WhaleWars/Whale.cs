@@ -6,8 +6,7 @@ namespace WhaleWars
     public class Whale
     {
         public string Name { get; set;}
-        public int Health { get; set;}
-        private int defense;
+        public int Health  { get; set;}
         public int Defense { get; set;}
         public int Offense { get; set;}
         public CharClass _CharClass { get; set;}
