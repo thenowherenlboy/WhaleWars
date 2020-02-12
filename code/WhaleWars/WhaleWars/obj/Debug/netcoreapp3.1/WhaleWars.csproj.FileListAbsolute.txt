@@ -1,0 +1,3 @@
+C:\Users\Cryptlogic\source\repos\thenowherenlboy\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.csprojAssemblyReference.cache
+C:\Users\Cryptlogic\source\repos\thenowherenlboy\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.AssemblyInfoInputs.cache
+C:\Users\Cryptlogic\source\repos\thenowherenlboy\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.AssemblyInfo.cs

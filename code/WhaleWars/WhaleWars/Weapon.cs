@@ -4,9 +4,9 @@ namespace WhaleWars
 {
     public class Weapon : Item
     {
-        private int upperdamage;
-        private int lowerdamage;
-        private int range;
+        public int upperdamage;
+        public int lowerdamage;
+        public int range;
       
     }
 

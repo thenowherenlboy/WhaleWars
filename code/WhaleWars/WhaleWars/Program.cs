@@ -6,12 +6,7 @@ namespace WhaleWars
     {
         public static void Main(string[] args)
         {
-            Whale barney = new Whale();
-            barney.Health = 10;
-            barney._CharClass = CharClass.fighter;
-            barney.Defense = 2;
-            barney.Offense = 2;
-            barney.Name = "Barney";
+            Whale barney = new Whale("barney", CharClass.fighter, 10, 2, 2);
 
             Planet sumPlanet = new Planet("Blowholia Prime", PlanetType.ocean, 5,4,Sector.Blowholia);
 
