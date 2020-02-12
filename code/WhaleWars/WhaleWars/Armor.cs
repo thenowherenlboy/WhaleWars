@@ -6,26 +6,30 @@ namespace WhaleWars
 {
     public class Armor : Item
     {
-        CharClass _CharClass;
-        private int defenseModifier { get; set; }
+        public CharClass charClass;
+        public int defenseModifier { get; set; }
         public Armor(string name, int def, CharClass classClass)
         {
             Name = name;
-            _CharClass = classClass;
+            charClass = classClass;
             defenseModifier = def;           
+        }
+
+        public Armor()
+        {
+            Name = "melvin";
+            charClass = CharClass.fighter;
+            defenseModifier = 0;
         }
     }
 
     public class Bronze : Armor
     {
-        public Bronze();
+        public Bronze()
         {
-         Name = "Bronze Armor";
-         CharClass _CharClass = CharClass.fighter;
-        int defenseModifier = 1;
-         
-         
+            Name = "Bobby Blow's Bronze Armour";
+            charClass = CharClass.fighter;
+            defenseModifier = 1;
         }
     }
-
 }

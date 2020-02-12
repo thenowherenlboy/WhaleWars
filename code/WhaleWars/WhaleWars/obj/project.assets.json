@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\WhaleWars\\WhaleWars\\WhaleWars.csproj",
+      "projectUniqueName": "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj",
       "projectName": "WhaleWars",
-      "projectPath": "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\WhaleWars\\WhaleWars\\WhaleWars.csproj",
+      "projectPath": "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj",
       "packagesPath": "C:\\Users\\job_2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\WhaleWars\\WhaleWars\\obj\\",
+      "outputPath": "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\code\\WhaleWars\\WhaleWars\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -7,19 +7,20 @@ namespace WhaleWars
         public string Name { get; set;}
         public PlanetType PlanType { get; set;}
         public string Description { get; set; }  //Planet description text, backstory, characteristics, etc.
+        private Location location;
 
         public Planet() 
         {
             Name  = "nowhere";
             PlanType = PlanetType.barren;
-            Location  = new Location(1, 1, Sector.Blowholia);
+            location  = new Location(1, 1, Sector.Blowholia);
         }
 
         public Planet(string planetName, PlanetType type, int x, int y, Sector sector)
         {
             Name = planetName;
             PlanType = type;
-            this.Location = new Location(x, y, sector);
+            location = new Location(x, y, sector);
         }
     }
 
