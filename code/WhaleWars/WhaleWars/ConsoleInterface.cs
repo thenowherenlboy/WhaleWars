@@ -2,7 +2,7 @@ using System;
 
 namespace WhaleWars
 {
-    public static class Hud
+    public static class ConsoleInterface
     {
         public static void HUD(string player, string location, int turn, int Health, int Attack, int Defence)
         {
