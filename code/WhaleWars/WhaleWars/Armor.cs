@@ -23,13 +23,34 @@ namespace WhaleWars
         }
     }
 
-    public class Bronze : Armor
+    public class Plating : Armor
     {
-        public Bronze()
+        public Plating()
         {
             Name = "Bobby Blow's Bronze Armour";
             charClass = CharClass.fighter;
-            defenseModifier = 1;
+            defenseModifier = 10;
         }
     }
+
+    public class Chainmail : Armor
+    {
+        public Chainmail()
+        {
+            Name = " Silver Glittery Rainacorn Scales";
+            charClass = CharClass.ranger;
+            defenseModifier = 2;
+        }
+    }
+     
+    public class Cloth : Armor
+    {
+        public Cloth()
+        {
+            Name = "Reptilian Magical Cloth";
+            charClass = CharClass.mage;
+            defenseModifier = 5;
+        }
+    }
+
 }
