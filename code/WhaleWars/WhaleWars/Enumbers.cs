@@ -19,4 +19,11 @@ namespace WhaleWars
         UltraBoof
     }
 
+    public enum WeaponType
+    {
+        melee,
+        ranged,
+        magic
+    }
+
 }
