@@ -15,8 +15,8 @@ namespace WhaleWars
         public Sword()
         {
             Name = "Singing Sword";
-            Upperdamage = 10;
-            Lowerdamage = 4;
+            //Upperdamage = 10;
+           // Lowerdamage = 4;
 
         }
     }
@@ -26,8 +26,8 @@ namespace WhaleWars
         public Wand()
         {
             Name = "Wonder Wand";
-            Upperdamage = 15;
-            Lowerdamage = 8;
+            //Upperdamage = 15;
+            //Lowerdamage = 8;
             
         }
     }
@@ -36,8 +36,8 @@ namespace WhaleWars
         public Bow()
         {
             Name = "Rain Bow";
-            Upperdamage = 4;
-            Lowerdamage = 1;
+            //Upperdamage = 4;
+            //Lowerdamage = 1;
             
         }
     }
@@ -45,7 +45,7 @@ namespace WhaleWars
     {
         public Blowhole()
         {
-            Name = "Blow"
+            Name = "Blow";
         }
     }
 

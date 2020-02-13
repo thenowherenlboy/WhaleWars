@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace WhaleWars
 {
@@ -8,12 +9,13 @@ namespace WhaleWars
         {
             Planet sumPlanet = new Planet("Blowholia Prime", PlanetType.ocean, 5, 4, Sector.Blowholia);
             string Location = sumPlanet.Name;
-
+            int turn = 0;
             while (user.Health > 0 && target.Health > 0)
             {
-                HUD(user.Name, Location, user.Health, user.Offense, user.Defense);
+                ConsoleInterface.HUD(user.Name, Location, turn, user.Health, user.Offense, user.Defense);
                 MageMoves(user, target);
-                HUD(user.Name, Location, user.Health, user.Offense, user.Defense);
+                Thread.Sleep(2300);
+                ConsoleInterface.HUD(user.Name, Location, turn, user.Health, user.Offense, user.Defense);
                 EnemyAI(target, user);
             }
         } //Used as a test battle between two entities.
