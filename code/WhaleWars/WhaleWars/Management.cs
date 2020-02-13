@@ -63,24 +63,26 @@ namespace WhaleWars
             Typewrite("A Group-One production.\n");
         }
 
-        //public static void GameStart()
-        //{
-        //    Console.WriteLine("Please input a name\n");
-        //    string name = Input();
-        //    Console.WriteLine("Please chose a class\n");
-        //    int ClassPicker = Convert.ToInt32(Input());
+        public static void GameStart()
+        {
+          string  Input = Console.ReadLine();
 
-        //    Whale UserChoice = new Whale(name, CharClass.fighter, 0, 0, 0);
+            Console.WriteLine("Please input a name\n");
+            string name = Input;
+            Console.WriteLine("Please chose a class\n");
+            int ClassPicker = Convert.ToInt32(Input);
 
-        //    switch (ClassPicker)
-        //    {
-        //        case int n when n == 1: { UserChoice = new Whale(name, CharClass.fighter, 10, 5, 5); break; }
-        //        case int n when n == 2: { UserChoice = new Whale(name, CharClass.ranger, 10, 6, 4); break; }
-        //        case int n when n == 3: { UserChoice = new Whale(name, CharClass.mage, 10, 7, 2); break; }
-        //    }
+            Whale UserChoice = new Whale(name, CharClass.fighter, 0, 0, 0);
+
+            switch (ClassPicker)
+            {
+                case int n when n == 1: { UserChoice = new Whale(name, CharClass.fighter, 10, 5, 5); break; }
+                case int n when n == 2: { UserChoice = new Whale(name, CharClass.ranger, 10, 6, 4); break; }
+                case int n when n == 3: { UserChoice = new Whale(name, CharClass.mage, 10, 7, 2); break; }
+            }
 
 
 
-        //}
+        }
     }
 }
