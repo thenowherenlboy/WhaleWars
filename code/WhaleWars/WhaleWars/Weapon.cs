@@ -41,13 +41,13 @@ namespace WhaleWars
             
         }
     }
-    public class Blowhole : Weapon
+    /* public class Blowhole : Weapon  
     {
         public Blowhole()
         {
             Name = "Blow"
         }
-    }
+    } */
 
     // array = ["blowhole", "12", "
 }
