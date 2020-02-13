@@ -2,7 +2,7 @@
 
 namespace WhaleWars
 {
-	public class Managemenet
+	public class Management
 	{
 		public static void mgmt()
 		{
