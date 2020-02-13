@@ -13,9 +13,9 @@ namespace WhaleWars
 		}
 		public static void title()
         {
-            Console.SetWindowSize(100, 50);
-            Console.BufferHeight = 100;
-            Console.BufferWidth = 150;
+            //Console.SetWindowSize(100, 50);
+            //Console.BufferHeight = 100;
+            //Console.BufferWidth = 150;
 
             Typewrite("A long time ago...\n");
             Typewrite("In an ocean of space....\n");
