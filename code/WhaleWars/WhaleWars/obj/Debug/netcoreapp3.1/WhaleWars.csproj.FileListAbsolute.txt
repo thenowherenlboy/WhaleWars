@@ -44,3 +44,14 @@ C:\Users\job_2\OneDrive\Desktop\HomeworkJank\MSSACohort5\WhaleWars\code\WhaleWar
 C:\Users\job_2\OneDrive\Desktop\HomeworkJank\MSSACohort5\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.AssemblyInfo.cs
 C:\Users\job_2\OneDrive\Desktop\HomeworkJank\MSSACohort5\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.dll
 C:\Users\job_2\OneDrive\Desktop\HomeworkJank\MSSACohort5\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.pdb
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.csprojAssemblyReference.cache
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.AssemblyInfoInputs.cache
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.AssemblyInfo.cs
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.dll
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.pdb
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\bin\Debug\netcoreapp3.1\WhaleWars.exe
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\bin\Debug\netcoreapp3.1\WhaleWars.deps.json
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\bin\Debug\netcoreapp3.1\WhaleWars.runtimeconfig.json
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\bin\Debug\netcoreapp3.1\WhaleWars.runtimeconfig.dev.json
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\bin\Debug\netcoreapp3.1\WhaleWars.dll
+C:\Users\parke\Source\Repos\WhaleWars\code\WhaleWars\WhaleWars\bin\Debug\netcoreapp3.1\WhaleWars.pdb

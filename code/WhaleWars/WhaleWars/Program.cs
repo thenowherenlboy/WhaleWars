@@ -27,7 +27,10 @@ namespace WhaleWars
             Console.WriteLine("Simulation of game ending");
             Console.ReadKey(); */
 
-            Management.mgmt();
+            Weapon charwp = Weapon.CreateWeapon(WeaponList.Sword);
+            Console.WriteLine(charwp.Name);
+            Console.WriteLine(charwp.Damage);
+            Console.WriteLine(charwp.Defense);
         }
     }
 }
