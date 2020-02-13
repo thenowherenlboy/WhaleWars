@@ -5,6 +5,8 @@ namespace WhaleWars
     public class Management
     {
 
+        const int TYPESPEED = 30;
+
 
         public static void mgmt()
         {
@@ -19,22 +21,22 @@ namespace WhaleWars
             //Console.BufferHeight = 100;
             //Console.BufferWidth = 150;
 
-            Typewrite("A long time ago...\n");
-            Typewrite("In an ocean of space....\n");
-            Typewrite("Far Far away...\n");
-            Typewrite("There was a whale...\n");
-            Typewrite("Floating aimlessly through space...\n");
-            Typewrite("");
+            Typewrite("A long time ago...\n", TYPESPEED);
+            Typewrite("In an ocean of space....\n", TYPESPEED);
+            Typewrite("Far Far away...\n", TYPESPEED);
+            Typewrite("There was a whale...\n", TYPESPEED);
+            Typewrite("Floating aimlessly through space...\n", TYPESPEED);
+            Typewrite("", TYPESPEED);
             printTitle();
             Welcome();
             Console.ReadKey();
         }
-        static void Typewrite(string message)
+        static void Typewrite(string message, int speed)
         {
             for (int i = 0; i < message.Length; i++)
             {
                 Console.Write(message[i]);
-                System.Threading.Thread.Sleep(60);
+                System.Threading.Thread.Sleep(speed);
             }
         }
         static void printTitle()
@@ -48,19 +50,12 @@ namespace WhaleWars
   \__/\  / |___|  (____  /____/\___  >   \__/\  /  (____  /__|  /____  >
        \/       \/     \/          \/         \/        \/           \/                                  
                                                                  ";
-            TypewriteFast(title);
+            Typewrite(title, 5);
         }
-        static void TypewriteFast(string message)
-        {
-            for (int i = 0; i < message.Length; i++)
-            {
-                Console.Write(message[i]);
-                System.Threading.Thread.Sleep(5);
-            }
-        }
+        
         static void Welcome()
         {
-            Typewrite("A Group-One production.\n");
+            Typewrite("A Group-One production.\n\t\t\t\t\t\t\t\t A Chartese Desentery Ameoba Game.\n", TYPESPEED);
         }
 
         public static void GameStart()
