@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MSSA\\VS Projects\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj": {}
+    "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj": {}
   },
   "projects": {
-    "E:\\MSSA\\VS Projects\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj": {
+    "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MSSA\\VS Projects\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj",
+        "projectUniqueName": "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj",
         "projectName": "WhaleWars",
-        "projectPath": "E:\\MSSA\\VS Projects\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj",
-        "packagesPath": "C:\\Users\\dicta\\.nuget\\packages\\",
-        "outputPath": "E:\\MSSA\\VS Projects\\WhaleWars\\code\\WhaleWars\\WhaleWars\\obj\\",
+        "projectPath": "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\code\\WhaleWars\\WhaleWars\\WhaleWars.csproj",
+        "packagesPath": "C:\\Users\\job_2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\job_2\\OneDrive\\Desktop\\HomeworkJank\\MSSACohort5\\WhaleWars\\code\\WhaleWars\\WhaleWars\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\dicta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\job_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
