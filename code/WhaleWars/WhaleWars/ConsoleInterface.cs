@@ -4,8 +4,9 @@ namespace WhaleWars
 {
     public static class ConsoleInterface
     {
-        public static void HUD(string player, string location, int turn, int Health, int Attack, int Defence)
+        public static void HUD(string player = "", string location= "", int turn = 0, int Health = 0, int Attack = 0, int Defence = 0)
         {
+          
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("*************************************");
