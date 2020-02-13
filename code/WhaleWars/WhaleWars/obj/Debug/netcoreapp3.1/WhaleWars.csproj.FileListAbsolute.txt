@@ -17,3 +17,8 @@ C:\Users\job_2\source\repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcore
 C:\Users\job_2\source\repos\WhaleWars\code\WhaleWars\WhaleWars\bin\Debug\netcoreapp3.1\WhaleWars.exe
 C:\Users\job_2\source\repos\WhaleWars\code\WhaleWars\WhaleWars\bin\Debug\netcoreapp3.1\WhaleWars.runtimeconfig.json
 C:\Users\job_2\source\repos\WhaleWars\code\WhaleWars\WhaleWars\bin\Debug\netcoreapp3.1\WhaleWars.runtimeconfig.dev.json
+C:\Users\nateg\source\repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.csprojAssemblyReference.cache
+C:\Users\nateg\source\repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.AssemblyInfoInputs.cache
+C:\Users\nateg\source\repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.AssemblyInfo.cs
+C:\Users\nateg\source\repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.dll
+C:\Users\nateg\source\repos\WhaleWars\code\WhaleWars\WhaleWars\obj\Debug\netcoreapp3.1\WhaleWars.pdb

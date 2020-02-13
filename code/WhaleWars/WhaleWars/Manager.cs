@@ -8,7 +8,8 @@ namespace WhaleWars
 		{
             title();
 
-
+            ConsoleInterface.HUD(); 
+                
 		}
 		public static void title()
         {
