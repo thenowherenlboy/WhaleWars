@@ -1,53 +1,37 @@
 using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace WhaleWars
+namespace WhaleWarsPersonal
 {
-    public class Weapon : Item
-    {
-        public int upperdamage;
-        public int lowerdamage;
-        public int range;
-      
-    }
 
-    public class Sword : Weapon
+    public class Weapon 
     {
-        public Sword()
-        {
-            Name = "Singing Sword";
-            //Upperdamage = 10;
-           // Lowerdamage = 4;
+        public WeaponList Name { get; set; } // instead of string, use enum for more efficiency 
+        public int Damage { get; set; }
+        public int Defense { get; set; }
 
+        public Weapon(WeaponList weapon, int damage, int defense)  // Constructor needs these 3 parameters to create. This is only used for the CreateWeapons() method. 
+        {
+            this.Name = weapon;
+            this.Damage = damage;
+            this.Defense = defense;
         }
-    }
 
-    public class Wand : Weapon
-    {
-        public Wand()
-        {
-            Name = "Wonder Wand";
-            //Upperdamage = 15;
-            //Lowerdamage = 8;
-            
-        }
-    }
-    public class Bow : Weapon
-    {
-        public Bow()
-        {
-            Name = "Rain Bow";
-            //Upperdamage = 4;
-            //Lowerdamage = 1;
-            
-        }
-    }
-    public class Blowhole : Weapon
-    {
-        public Blowhole()
-        {
-            Name = "Blow";
-        }
-    }
 
-    // array = ["blowhole", "12", "
+        public static List<Weapon> CreateWeapons() {  //Method that uses a list of type Weapon to create all weapons necessary for the game. 
+            List<Weapon> weapons = new List<Weapon>();
+            weapons.AddRange(new Weapon[]
+            {
+                new Weapon(WeaponList.Sword, 6, 4),
+                new Weapon(WeaponList.Knife, 7, 3),
+                new Weapon(WeaponList.Bow, 2, 8),
+                new Weapon(WeaponList.Blowhole, 9, 1),
+                new Weapon(WeaponList.Chimichanga, 8, 2),
+                new Weapon(WeaponList.Wand, 5, 5),
+                new Weapon(WeaponList.UltraBoof, 10, 10)
+            });
+            return weapons;
+                }
+    }
 }
