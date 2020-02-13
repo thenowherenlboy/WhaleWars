@@ -1,9 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Cryptlogic\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Cryptlogic\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\dicta\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dicta\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
     ]
   }
 }
