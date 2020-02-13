@@ -2,16 +2,18 @@
 
 namespace WhaleWars
 {
-	public class Management
-	{
-		public static void mgmt()
-		{
+    public class Management
+    {
+
+
+        public static void mgmt()
+        {
             title();
 
-            ConsoleInterface.HUD(); 
-                
-		}
-		public static void title()
+            ConsoleInterface.HUD();
+
+        }
+        public static void title()
         {
             //Console.SetWindowSize(100, 50);
             //Console.BufferHeight = 100;
@@ -60,5 +62,25 @@ namespace WhaleWars
         {
             Typewrite("A Group-One production.\n");
         }
+
+        //public static void GameStart()
+        //{
+        //    Console.WriteLine("Please input a name\n");
+        //    string name = Input();
+        //    Console.WriteLine("Please chose a class\n");
+        //    int ClassPicker = Convert.ToInt32(Input());
+
+        //    Whale UserChoice = new Whale(name, CharClass.fighter, 0, 0, 0);
+
+        //    switch (ClassPicker)
+        //    {
+        //        case int n when n == 1: { UserChoice = new Whale(name, CharClass.fighter, 10, 5, 5); break; }
+        //        case int n when n == 2: { UserChoice = new Whale(name, CharClass.ranger, 10, 6, 4); break; }
+        //        case int n when n == 3: { UserChoice = new Whale(name, CharClass.mage, 10, 7, 2); break; }
+        //    }
+
+
+
+        //}
     }
 }
