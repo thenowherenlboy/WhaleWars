@@ -5,20 +5,30 @@ namespace WhaleWars
 {
 	public class Combat
 	{
+        
+        //Used as a test battle between two entities.
         public static void Battle(Whale user, Whale target)
         {
-            Planet sumPlanet = new Planet("Blowholia Prime", PlanetType.ocean, 5, 4, Sector.Blowholia);
-            string Location = sumPlanet.Name;
-            int turn = 0;
-            while (user.Health > 0 && target.Health > 0)
-            {
-                ConsoleInterface.HUD(user.Name, Location, turn, user.Health, user.Offense, user.Defense);
-                MageMoves(user, target);
-                Thread.Sleep(2300);
-                ConsoleInterface.HUD(user.Name, Location, turn, user.Health, user.Offense, user.Defense);
-                EnemyAI(target, user);
-            }
-        } //Used as a test battle between two entities.
+            //This section is only used for the HUD location. 
+            //############################################################################################
+            Planet sumPlanet = new Planet("Blowholia Prime", PlanetType.ocean, 5, 4, Sector.Blowholia);//#
+            string Location = sumPlanet.Name;                                                          //#
+            int turn = 0;                                                                              //#
+            //############################################################################################
+
+            //While loop used to simulate a fight. 
+            //###############################################################################################
+            while (user.Health > 0 && target.Health > 0)                                                  //#
+            {                                                                                             //#
+                ConsoleInterface.HUD(user.Name, Location, turn, user.Health, user.Offense, user.Defense); //#
+                MageMoves(user, target);                                                                  //#
+                Thread.Sleep(2300);                                                                       //#
+                ConsoleInterface.HUD(user.Name, Location, turn, user.Health, user.Offense, user.Defense); //#
+                EnemyAI(target, user);                                                                    //#
+            }                                                                                             //#
+            //###############################################################################################
+        } 
+        
         public static int MageMoves(Whale user, Whale target)
         {
             Console.WriteLine("Select a skill to use\n" +
