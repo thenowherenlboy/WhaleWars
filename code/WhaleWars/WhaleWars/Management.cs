@@ -11,8 +11,10 @@ namespace WhaleWars
         public static void mgmt()
         {
             title();
+            Whale UserChoice = new Whale("name", CharClass.fighter, 1, 1, 1);
+            { UserChoice = GameStart(UserChoice); }
 
-            ConsoleInterface.HUD();
+            ConsoleInterface.HUD(UserChoice.Name, "Planet", 0, UserChoice.Health, UserChoice.Offense, UserChoice.Defense);
 
         }
         public static void title()
@@ -58,25 +60,23 @@ namespace WhaleWars
             Typewrite("A Group-One production.\n\t\t\t\t\t\t\t\t A Chartese Desentery Ameoba Game.\n", TYPESPEED);
         }
 
-        public static void GameStart()
+        public static Whale GameStart(Whale UserChoice)
         {
-          string  Input = Console.ReadLine();
-
             Console.WriteLine("Please input a name\n");
-            string name = Input;
-            Console.WriteLine("Please chose a class\n");
-            int ClassPicker = Convert.ToInt32(Input);
+            string name = Console.ReadLine();
 
-            Whale UserChoice = new Whale(name, CharClass.fighter, 0, 0, 0);
+            Console.WriteLine("Please chose a class\n");
+            string pick = Console.ReadLine();
+            int ClassPicker = Convert.ToInt32(pick);
 
             switch (ClassPicker)
             {
-                case int n when n == 1: { UserChoice = new Whale(name, CharClass.fighter, 10, 5, 5); break; }
-                case int n when n == 2: { UserChoice = new Whale(name, CharClass.ranger, 10, 6, 4); break; }
-                case int n when n == 3: { UserChoice = new Whale(name, CharClass.mage, 10, 7, 2); break; }
+                case int n when n == 1: { UserChoice = new Whale(name, CharClass.fighter, 10, 5, 5); return UserChoice; }
+                case int n when n == 2: { UserChoice = new Whale(name, CharClass.ranger, 10, 6, 4); return UserChoice; }
+                case int n when n == 3: { UserChoice = new Whale(name, CharClass.mage, 10, 7, 2); return UserChoice; }
+                default: break;
             }
-
-
+            return UserChoice;
 
         }
     }
